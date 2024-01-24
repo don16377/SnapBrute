@@ -67,7 +67,7 @@ class SnapBrute:
 
     def main(self):
         self.ui()
-        self.username = input(f"[{Fore.BLUE}?{Fore.RESET}] Target username> ")
+        self.username = input(f"[{Fore.BLUE}?{Fore.RESET}] Target username l3aah136> ")
         self.wordlist = input(f"[{Fore.BLUE}?{Fore.RESET}] Wordlist file> ")
         self.ui()
         for _ in range(100): #Threads
